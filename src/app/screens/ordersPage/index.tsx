@@ -5,7 +5,7 @@ import Tab from "@mui/material/Tab";
 import TabContext from "@mui/lab/TabContext";
 import TabPanel from "@mui/lab/TabPanel";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-import PauseOrders from "./PausedOrders";
+import PausedOrders from "./PausedOrders";
 import ProcessOrders from "./ProcessOrders";
 import FinishedOrders from "./FinishedOrders";
 import "../../../css/order.css";
@@ -38,7 +38,7 @@ export default function OrdersPage() {
             </Box>
 
             <TabPanel value="1">
-              <PauseOrders />
+              <PausedOrders />
             </TabPanel>
             <TabPanel value="2">
               <ProcessOrders />
