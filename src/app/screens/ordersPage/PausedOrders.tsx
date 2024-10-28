@@ -3,7 +3,7 @@ import TabPanel from "@mui/lab/TabPanel";
 import { Box, Button, Stack } from "@mui/material";
 import moment from "moment";
 
-export default function PauseOrders() {
+export default function PausedOrders() {
   return (
     <TabPanel value={"1"}>
       <Stack>
