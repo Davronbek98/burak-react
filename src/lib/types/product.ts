@@ -1,0 +1,29 @@
+import {
+  ProductCollection,
+  ProductSize,
+  ProductStatus,
+} from "../enums/product.enum";
+
+export interface Product {
+  _id: String;
+  productStatus: ProductStatus;
+  productCollection: ProductCollection;
+  productName: String;
+  productPrice: Number;
+  productLeftCount: Number;
+  productSize: ProductSize;
+  prosuctVolume: number;
+  productDesc?: String;
+  productImages: String[];
+  productViews: Number;
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+export interface ProductInquiry {
+  order: string;
+  page: number;
+  limit: number;
+  productCollection?: ProductCollection;
+  search: string;
+}
