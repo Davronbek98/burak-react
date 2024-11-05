@@ -20,6 +20,6 @@ export interface HomePageState {
 export interface ProductsPageState {
   restaurant: Member | null;
   chosenProduct: Product | null;
-  product: Product[];
+  products: Product[];
 }
 /**  ORDERS PAGE **/
