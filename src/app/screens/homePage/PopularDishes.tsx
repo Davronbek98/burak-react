@@ -5,7 +5,6 @@ import Card from "@mui/joy/Card";
 import CardCover from "@mui/joy/CardCover";
 import CardContent from "@mui/joy/CardContent";
 import Typography from "@mui/joy/Typography";
-import LocationOnRoundedIcon from "@mui/icons-material/LocationOnRounded";
 import CardOverflow from "@mui/joy/CardOverflow";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import DescribtionOutLinedIcon from "@mui/icons-material/DescriptionOutlined";
